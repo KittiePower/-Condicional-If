@@ -1,0 +1,30 @@
+/******************************************************************************
+Compra Feliz
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+#include <iostream>
+/*
+Ejemplo para uso de condicional if 
+*/
+using namespace std;
+
+int main()
+{
+    //Variables
+    double compra;
+    double costoFinal;
+    double descuento;
+    
+    //Proceso
+    cout<<" Escribe el total de la compra"<<endl;
+    cin>>compra;
+    if(compra>=500){
+        descuento=compra*0.15;
+        cout<<"El descuento es"<<descuento<<endl;
+        costoFinal=compra-descuento;
+        cout<<"El total a pagar con descuento inlcuido es"<< costoFinal <<endl;
+    }
+    
+    return 0;
+}
